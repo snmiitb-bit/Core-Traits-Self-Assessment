@@ -19,8 +19,9 @@ st.set_page_config(
     layout="wide",
 )
 
-LOGO_PATH = r"D:\Molway\2026-27\Job Corner\Core Traits_Self Assesment\MOLWAY_JOBCorner_Logo1.png"
-EXCEL_PATH = r"D:\Molway\2026-27\Job Corner\Core Traits_Self Assesment\Core Traits Self Assesment_2026.xlsx"
+# Use relative paths so it works seamlessly on local machine and Streamlit Cloud
+LOGO_PATH = "MOLWAY_JOBCorner_Logo1.png"
+EXCEL_PATH = "Core Traits Self Assesment_2026.xlsx"
 
 # App Title & Branding
 col1, col2 = st.columns([1, 4])
